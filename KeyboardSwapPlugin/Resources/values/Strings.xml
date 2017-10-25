@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Instructions">
+    To use this plugin, please follow these steps: \n 1.) Install ADB on your computer. ADB is the Android Debug Bridge, you find instructions how to do this on the web. \n 2.) Open a command prompt and change to the directory where the adb executable is located (e.g. [Android SDK location]\\platform-tools). \n 3.) Launch an adb shell. Therefore, type "adb shell" \n 4.) In the adb shell, enter \npm grant keepass2android.plugin.keyboardswap2 android.permission.WRITE_SECURE_SETTINGS\n and hit the Enter key. \n5.) Type "exit" to leave the adb shell.
+  </string>
+
+    <string name="NoPermission">No permission to to change input method! Please follow the instructions to configure this plugin correctly.</string>
+  <string name="NoImeFound">Sorry, could not find any activated input method on your system!</string>
+    <string name="ApplicationName">KeyboardSwap Plugin for KP2A</string>
+  <string name="btntest">Test configuration</string>
+  <string name="result_ok">Great! Looks like you have correctly configured this plugin! You can now go to Keepass2Android settings - app settings - password access - keyboard switching and enable the option Auto-switch keyboard</string>
+</resources>
