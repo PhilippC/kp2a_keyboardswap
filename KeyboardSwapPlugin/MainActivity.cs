@@ -8,6 +8,7 @@ using Android.OS;
 using Android.Provider;
 using Java.Lang;
 using System.Linq;
+using Android.Util;
 using Android.Views.InputMethods;
 
 namespace KeyboardSwapPlugin
@@ -17,9 +18,10 @@ namespace KeyboardSwapPlugin
 	{
 		bool TryActivateIme(string newIme)
 		{
+		    Log.Debug("KP2A", "Trying to activate " + newIme);
 			string imes = Settings.Secure.GetString(ContentResolver, Settings.Secure.EnabledInputMethods);
 			var imesList = imes.Split(':');
-			Android.Util.Log.Debug("KP2A", imes);
+			Android.Util.Log.Debug("KP2A", "imes=" + imes);
 			
 			if (imesList.Contains(newIme))
 				try
@@ -52,6 +54,7 @@ namespace KeyboardSwapPlugin
 			FindViewById<Button>(Resource.Id.btntest).Click += (sender, args) =>
 			{
 				string imes = Settings.Secure.GetString(ContentResolver, Settings.Secure.EnabledInputMethods);
+			    Log.Debug("KP2A", "imes=" + imes);
 				var imesList = imes.Split(':');
 			
 				string currentIme = Settings.Secure.GetString(ContentResolver, Settings.Secure.DefaultInputMethod);

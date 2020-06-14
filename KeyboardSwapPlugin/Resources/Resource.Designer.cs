@@ -44,8 +44,8 @@ namespace KeyboardSwapPlugin
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			// aapt resource value: 0x7F010000
+			public const int Icon = 2130771968;
 			
 			static Drawable()
 			{
@@ -60,14 +60,14 @@ namespace KeyboardSwapPlugin
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int btntest = 2131034113;
+			// aapt resource value: 0x7F020000
+			public const int btntest = 2130837504;
 			
-			// aapt resource value: 0x7f050000
-			public const int instr = 2131034112;
+			// aapt resource value: 0x7F020001
+			public const int instr = 2130837505;
 			
-			// aapt resource value: 0x7f050002
-			public const int result = 2131034114;
+			// aapt resource value: 0x7F020002
+			public const int result = 2130837506;
 			
 			static Id()
 			{
@@ -82,7 +82,7 @@ namespace KeyboardSwapPlugin
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
+			// aapt resource value: 0x7F030000
 			public const int Main = 2130903040;
 			
 			static Layout()
@@ -98,22 +98,22 @@ namespace KeyboardSwapPlugin
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040003
-			public const int ApplicationName = 2130968579;
+			// aapt resource value: 0x7F040000
+			public const int ApplicationName = 2130968576;
 			
-			// aapt resource value: 0x7f040000
-			public const int Instructions = 2130968576;
-			
-			// aapt resource value: 0x7f040002
-			public const int NoImeFound = 2130968578;
-			
-			// aapt resource value: 0x7f040001
-			public const int NoPermission = 2130968577;
-			
-			// aapt resource value: 0x7f040004
+			// aapt resource value: 0x7F040004
 			public const int btntest = 2130968580;
 			
-			// aapt resource value: 0x7f040005
+			// aapt resource value: 0x7F040001
+			public const int Instructions = 2130968577;
+			
+			// aapt resource value: 0x7F040002
+			public const int NoImeFound = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int NoPermission = 2130968579;
+			
+			// aapt resource value: 0x7F040005
 			public const int result_ok = 2130968581;
 			
 			static String()
